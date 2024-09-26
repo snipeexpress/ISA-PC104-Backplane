@@ -6,7 +6,7 @@ Another idea I had was that I wanted to be able to have different modules to pla
 I made an adapter board for the ICOP SOM304RD-VI: 
 https://www.icop.com.tw/product/SOM304RD-VI
 Which on final testing, works as intended. this essentially is a way for me to develop hardware for different devices to be consolidated down later into smaller footprints similar to the TinyLlama by Eivind Bohler,
-or the WeeCee by Rasteri. This gives me full access to the full ISA bus as well as the ability to change out the device acting as the "compute" 
+or the WeeCee by Rasteri. This gives me access to the full ISA bus as well as the ability to change out the device acting as the "compute" 
 
 The first version worked but required a significant amount of bodges to fix some oversights but I wanted to add termination resistors to the last ISA slot and the 
 ATX screw holes were slightly off. I also wanted to make the traces to the ISA slots a bit thicker for signal quality.
